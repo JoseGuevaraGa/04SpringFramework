@@ -11,11 +11,11 @@ public class HelloWorldController {
     }
     @GetMapping("/HelloWorld")
     public String saluda(@RequestParam(value = "nom", defaultValue = "UNKNOWN") String name) {
-        return String.format("Hello %s!", name, "Estas ejecutando un proyecto Maven");
+        return String.format("Hello %s!", name, " Estas ejecutando un proyecto Maven");
     }
     @GetMapping("/HelloWorld2")
     public String saluda2n(@RequestParam(value = "nom", defaultValue = "UNKNOWN") String name) {
-        return String.format("Hello %s!", name, "Estas ejecutando un proyecto Maven");
+        return String.format("Hello %s!", name, " Estas ejecutando un proyecto Maven");
     }
     @GetMapping("/HelloWorld2/{nom}")
     @ResponseBody
