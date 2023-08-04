@@ -36,6 +36,10 @@ public class Fruita {
         this.quantitatQuilos = quantitatQuilos;
     }
 
+    public Fruita() {
+
+    }
+
     public long getId() {
         return id;
     }
